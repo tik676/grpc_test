@@ -47,7 +47,7 @@
 ## Как тестировать
 
 - Используй [grpcurl](https://github.com/fullstorydev/grpcurl) или [BloomRPC](https://bloomrpc.com/) для ручных gRPC-запросов.
-- Импортируй ваш proto-файл для работы через GUI-клиент.
+- Импортируй proto-файл для работы через GUI-клиент.
 
 
 
