@@ -66,12 +66,7 @@ func (p *PostgresRepo) EditTask(taskRequest domain.Task) domain.Task {
 		return domain.Task{}
 	}
 
-	return domain.Task{
-		ID:          task.ID,
-		Title:       task.Title,
-		Description: task.Description,
-		Completed:   task.Completed,
-	}
+	return task
 }
 
 func (p *PostgresRepo) DeleteTask(id int) domain.Task {
